@@ -75,6 +75,7 @@ const isEmailSend = ref(false);
 const isLoading = ref(false);
 
 definePageMeta({
+  unauthenticatedOnly: true,
   layout: "guest-layout",
 });
 
