@@ -74,6 +74,10 @@ const email = ref("");
 const isEmailSend = ref(false);
 const isLoading = ref(false);
 
+definePageMeta({
+  layout: "guest-layout",
+});
+
 const signIn = async () => {
   isLoading.value = true;
   const { error } = await supabase.auth.signInWithOtp({
