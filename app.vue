@@ -1,5 +1,5 @@
 <template>
-  <div data-theme="garden">
+  <div data-theme="emerald">
     <NuxtLayout><NuxtPage /></NuxtLayout>
   </div>
 </template>

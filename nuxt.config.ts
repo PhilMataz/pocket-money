@@ -9,4 +9,7 @@ export default defineNuxtConfig({
       exclude: ["/", "/sign-up", "sign-in"],
     },
   },
+  build: {
+    transpile: ["vue-countup-v3"],
+  },
 });
