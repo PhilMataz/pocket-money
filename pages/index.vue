@@ -1,5 +1,5 @@
 <template>
-  <div class="HomePage mb-12 flex justify-between">Welcome Promo Codes</div>
+  <div class="HomePage">Home</div>
 </template>
 
 <script setup lang="ts"></script>

@@ -4,9 +4,9 @@ export default defineNuxtConfig({
   modules: ["@nuxtjs/tailwindcss", "@nuxt/eslint", "@nuxtjs/supabase"],
   supabase: {
     redirectOptions: {
-      login: "/login",
+      login: "/sign-in",
       callback: "/confirm",
-      exclude: ["/"],
+      exclude: ["/", "/sign-up", "sign-in"],
     },
   },
 });
