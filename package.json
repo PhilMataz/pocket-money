@@ -9,7 +9,11 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "lint": "eslint . --report-unused-disable-directives --max-warnings 0",
-    "supabase:gen-types": "bun ./infrastructure/generate-types.ts"
+    "supabase:gen-types": "bun ./infrastructure/generate-types.ts",
+    "supabase:start": "bunx supabase start",
+    "supabase:stop": "bunx supabase stop",
+    "supabase:reset": "bunx supabase db reset",
+    "supabase:diff": "bunx supabase db diff --schema public"
   },
   "dependencies": {
     "@nuxt/eslint": "latest",
