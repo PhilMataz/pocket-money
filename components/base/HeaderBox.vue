@@ -4,7 +4,7 @@
       {{ title
       }}<span
         v-if="type === 'greeting'"
-        class="text-secondary"
+        class="text-primary"
         >&nbsp;{{ user }}</span
       >
     </h1>

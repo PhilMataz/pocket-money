@@ -1,7 +1,12 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ["@nuxtjs/tailwindcss", "@nuxt/eslint", "@nuxtjs/supabase"],
+  modules: [
+    "@nuxtjs/tailwindcss",
+    "@nuxt/eslint",
+    "@nuxtjs/supabase",
+    "nuxt-lucide-icons",
+  ],
   supabase: {
     redirectOptions: {
       login: "/sign-in",
